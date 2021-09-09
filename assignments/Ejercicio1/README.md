@@ -17,43 +17,35 @@ if __name__ == '__main__':
 ```
 
 ## Descripción del programa  
-Escribe un programa que calcule el monto a pagar de una cuenta de electricidad de un país cercano. Se calcula de acuerdo al consumo de KW consumidos en el mes y de acuerdo a la siguiente tabla y después ve los ejemplos:
+Escribe una función que **recibe como parámetros** tres valores enteros que representan edades y **debe regresar** (uso de return) la suma de los 3 números bajo las siguientes condiciones:
+-  Todos los datos deben ser mayores a 0 y no exceder de 100, de lo contrario la función inmediatamente debe regresar el valor de **0**.  
+-  Si alguno de los números representa la edad de un adolescente (13-18 inclusive), no se debe sumar.
 
-| KW consumidos |  Monto a pagar  |  
-| :-------------: |:-------------:| 
-| primeros 150     | SIN COSTO    |
-|entre 150 y 300 | 5 por cada KW que exceda de 150 y hasta de 300  |
-|después de 300| 8 por cada KW que exceda de 300 mas los anteriores |
-
-Así por ejemplo, si en una casa consumen 100 KW, la factura es por 0 pesos.
-
-Otro ejemplo, si en una casa se consumen 180 KW
-- por los primeros 150 no se paga nada
-- por los 30 restantes se paga 150 pesos (30 * 5)
-- En total se paga 150
-
-Otro ejemplo si en una casa se consumieron 350 KW el monto de la factura se calcula:
-- Por los primeros 150 no se paga nada
-- Por los 150 que siguen se paga 750
-- Por los 50 últimos se paga 400 (50 * 8)
-- En total se paga 1150
-
-De manera que, **escribe una función** que reciba como parámetro la **cantidad de KW** que se consumieron y que nos regrese el monto a pagar. 
-En la función main escribe el código necesario para preguntar al usuario la cantidad de KW del mes y usando la función se calcule el monto a pagar y se despliegue.
+Una vez que tengas tu función anterior, en la función main escribe toda las instrucciones de interacción con el usuario, es decir solicitar los 3 números al usuario y posteriormente con el uso de la función determinar el valor de la suma y desplegar a pantalla el resultado con el mensaje correspondiente (ver ejemplo para ver cómo deben de ser los mensajes de entrada y salida)
 
 **Entrada**  
-La cantidad de KW consumidos (número entero)
+Tres números enteros
 
 **Salida**  
-El monto de la factura con el mensaje correspondiente (ve el ejemplo).
+La suma de los números bajo las condiciones descritas anteriormente.
 
 **Ejemplo de ejecución del programa:** 
 ``` 
-Cantidad de KW: 350
-La factura de este mes es por 1150  
+Número 1: 1
+Número 2: 13
+Número 3: 34
+La suma loca es de 35 
 ```
-**Nota:** Por favor no quites nada de lo que ya tienes, simplemente agrega el código 
-necesario dentro de la función main. 
+
+**Ejemplo 2 de ejecución del programa:** 
+``` 
+Número 1: 11
+Número 2: 23
+Número 3: 10
+La suma loca es de 44 
+```
+
+**Nota:** Por favor no quites nada de lo que ya tienes, simplemente agrega el código de la función donde se te indica y agrega también el código necesario dentro de la función main. 
 `if __name__ == '__main__':` debe quedarse en tu código para que las pruebas puedan 
 ejecutarse adecuadamente.
 

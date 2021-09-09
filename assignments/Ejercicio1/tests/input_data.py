@@ -4,20 +4,26 @@
 input_values = [
     # Test case 1
     (
-    ["280"],
-    ["Cantidad de KW: ","La factura de este mes es por 650"],
-    ["Revisa los ejemplos y la tabla"]
+    ["15", "20", "1"],
+    ["Número 1: ","Número 2: ", "Número 3: ", "La suma loca es de 21"],
+    ["Revisa los ejemplos y las condiciones para la suma"]
     ),
     # Test case 2
     (
-    ["80"],
-    ["Cantidad de KW: ","La factura de este mes es por 0"],
-    ["Revisa los ejemplos y la tabla"]
+    ["20", "-1", "1"],
+    ["Número 1: ","Número 2: ", "Número 3: ", "La suma loca es de 0"],
+    ["Revisa los ejemplos y las condiciones para la suma"]
     ),
     # Test case 3
     (
-    ["400"],
-    ["Cantidad de KW: ","La factura de este mes es por 1550"],
-    ["Revisa los ejemplos y la tabla"]
+    ["100", "20", "1"],
+    ["Número 1: ","Número 2: ", "Número 3: ", "La suma loca es de 121"],
+    ["Revisa los ejemplos y las condiciones para la suma"]
+    ),
+    # Test case 4
+    (
+    ["13", "15", "18"],
+    ["Número 1: ","Número 2: ", "Número 3: ", "La suma loca es de 0"],
+    ["Revisa los ejemplos y las condiciones para la suma"]
     )
 ]
