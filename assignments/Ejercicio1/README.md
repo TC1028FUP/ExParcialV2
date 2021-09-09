@@ -9,7 +9,7 @@ Modifica el programa que se encuentra en la carpeta `src` que se llama `exercise
 
 
 def main():
-  #escribe aqupi el código para interactuar con el usuario y usar la función
+  #escribe aquí el código para interactuar con el usuario y usar la función
 
 
 if __name__ == '__main__':
@@ -17,11 +17,13 @@ if __name__ == '__main__':
 ```
 
 ## Descripción del programa  
-Escribe una función que **recibe como parámetros** tres valores enteros que representan edades y **debe regresar** (uso de return) la suma de los 3 números bajo las siguientes condiciones:
+Escribe una función suma_loca que **recibe como parámetros** tres valores enteros que representan edades y **debe regresar** (uso de return) la suma de los 3 números bajo las siguientes condiciones:
 -  Todos los datos deben ser mayores a 0 y no exceder de 100, de lo contrario la función inmediatamente debe regresar el valor de **0**.  
 -  Si alguno de los números representa la edad de un adolescente (13-18 inclusive), no se debe sumar.
 
-Una vez que tengas tu función anterior, en la función main escribe toda las instrucciones de interacción con el usuario, es decir solicitar los 3 números al usuario y posteriormente con el uso de la función determinar el valor de la suma y desplegar a pantalla el resultado con el mensaje correspondiente (ver ejemplo para ver cómo deben de ser los mensajes de entrada y salida)
+**Tip:** Crea una segunda función que reciba un sólo número y determine cuál es su valor para la suma anterior, es decir, si es 0 o menor o si es mayor a 100, o si es de las edades entre 13 y 18 el valor que debe regresar es 0, si no, su valor normal. De manera que la función suma_loca sólo llame a esta función para resolver el problema.
+
+Una vez que tengas tus funciones anteriores, en la función main escribe toda las instrucciones de interacción con el usuario, es decir solicitar los 3 números al usuario y posteriormente con el uso de la función suma_loca determinar el valor de la suma y desplegar a pantalla el resultado con el mensaje correspondiente (ver ejemplo para ver cómo deben de ser los mensajes de entrada y salida)
 
 **Entrada**  
 Tres números enteros
