@@ -11,7 +11,7 @@ input_values = [
     # Test case 2
     (
     ["20", "-1", "1"],
-    ["Número 1: ","Número 2: ", "Número 3: ", "La suma loca es de 0"],
+    ["Número 1: ","Número 2: ", "Número 3: ", "La suma loca es de 21"],
     ["Revisa los ejemplos y las condiciones para la suma"]
     ),
     # Test case 3
