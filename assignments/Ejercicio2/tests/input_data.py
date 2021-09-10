@@ -6,7 +6,7 @@ input_values = [
     # Test case 1
     (
         # Inputs
-        ["25", "134", "0", "-20", "0"],
+        ["25", "134", "110", "-20", "0"],
         # Outputs
         ["Número: ", "Número: ","Número: ", "Número: ","Número: ", "La suma de números entre -100 y 100 es: 5"],
         # Message in case of failure
@@ -17,7 +17,7 @@ input_values = [
        # Inputs
         ["12", "34", "-100", "0"],
         # Outputs
-        ["Número: ", "Número: ","Número: ", "Número: ", "La suma de números entre -100 y 100 es: 46"],
+        ["Número: ", "Número: ","Número: ", "Número: ", "La suma de números entre -100 y 100 es: -54"],
         # Message in case of failure
         "Revisa que estes identificando y sumando sólo los que están entre -100 y 100"
     ),
